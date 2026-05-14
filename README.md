@@ -1,19 +1,25 @@
 # keysmith-mac
 
-A lightweight macOS keyboard remapping utility concept, inspired by the practical parts of Karabiner-Elements.
+A lightweight macOS keyboard utility for discovering key events and applying practical persistent key remapping.
 
-## Current Status
+The project is inspired by the practical keyboard customization needs commonly solved with Karabiner-Elements, but the initial goal is intentionally narrower: make third-party keyboard function-row and special keys easier to identify, remap, and keep active on macOS.
 
-Project shell only. No implementation has been started yet.
+## Status
 
-## Initial Direction
+Project planning stage. No implementation has started yet.
 
-- Identify keyboard key codes and events on macOS.
+## Initial Goals
+
+- Identify keyboard key codes and key events on macOS.
 - Support simple persistent key behavior remapping.
-- Focus on third-party keyboard function-row and special keys first.
-- Keep remapping active after the main app exits, either through system-level configuration or a minimal background helper.
-- Leave room for future keyboard-related features.
+- Focus first on third-party keyboard function-row and special keys.
+- Keep mappings active after the main app exits, likely through a minimal background helper.
+- Preserve room for future keyboard-related features.
+
+## Technical Direction
+
+See [`docs/technical-direction.md`](docs/technical-direction.md) for the current recommended technology stack, architecture, first-version scope, and open technical questions.
 
 ## Next Step
 
-Define requirements, technical constraints, macOS permission model, and implementation architecture before writing code.
+Define concrete product requirements before implementation begins, including target keyboards, example mappings, macOS version support, permission UX, and helper persistence behavior.
