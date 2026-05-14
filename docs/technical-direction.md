@@ -182,6 +182,21 @@ These should be answered before implementation starts:
 - Should configuration live under the app group container, Application Support, or another location?
 - Should the first build be a pure Swift Package, an Xcode project, or an Xcode project backed by Swift packages?
 
+## Release Strategy
+
+Do not create a release until the project has a working implementation that is useful to install or test.
+
+Recommended release path:
+
+- Use Conventional Commits for history readability and future automation.
+- Keep `CHANGELOG.md` updated under an `[Unreleased]` section.
+- Start with `v0.1.0` for the first experimental build.
+- Use semantic versioning after releases begin.
+- Create annotated tags for releases.
+- Publish GitHub Releases from tags with notes copied from the matching changelog section.
+
+Early release candidates can use suffixes such as `v0.1.0-alpha.1` if the app is installable but not stable.
+
 ## Suggested Next Step
 
 Before writing implementation code, the project should define a small requirements document covering:

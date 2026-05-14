@@ -18,7 +18,11 @@ Project planning stage. No implementation has started yet.
 
 ## Technical Direction
 
-See [`docs/technical-direction.md`](docs/technical-direction.md) for the current recommended technology stack, architecture, first-version scope, and open technical questions.
+See [`docs/technical-direction.md`](docs/technical-direction.md) for the current recommended technology stack, architecture, first-version scope, open technical questions, and release strategy.
+
+## Changelog
+
+See [`CHANGELOG.md`](CHANGELOG.md) for unreleased changes and the planned release process.
 
 ## Next Step
 
