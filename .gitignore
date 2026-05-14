@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Xcode / Swift
+.build/
+DerivedData/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# Logs
+*.log
+
+# Local env
+.env
+.env.*
